@@ -1,0 +1,710 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Advanced PayPal Payments for WooCommerce\n"
+"POT-Creation-Date: 2023-02-01 17:30+0800\n"
+"PO-Revision-Date: 2024-08-30 18:15+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: advanced-paypal-payments-for-woocommerce.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. translators: %s is the PayPal transaction ID
+#: advanced-paypal-payments-for-woocommerce.php:180
+#, php-format
+msgid "PayPal transaction ID: %s ; capture ID : %s "
+msgstr "PayPal transaction ID: %s ; capture ID : %s "
+
+#: advanced-paypal-payments-for-woocommerce.php:295
+msgid "Saving parameter error, please check your input."
+msgstr "保存失败，请检查您的输入。"
+
+#: advanced-paypal-payments-for-woocommerce.php:323
+msgid "Settings"
+msgstr "设置"
+
+#: advanced-paypal-payments-for-woocommerce.php:343
+msgid "Support"
+msgstr "技术支持"
+
+#: advanced-paypal-payments-for-woocommerce.php:445
+msgid "PayPal has failed to refund. Refunded amount：%s. Please manually refund in PayPal website."
+msgstr "PayPal退款失败，退款金额：%s。请在PayPal网站手动退款。"
+
+#: advanced-paypal-payments-for-woocommerce.php:451
+#, php-format
+msgid "PayPal has successfully refunded. Refunded amount：%s"
+msgstr "PayPal退款成功。退款金额：%s"
+
+#: advanced-paypal-payments-for-woocommerce.php:599
+#: advanced-paypal-payments-for-woocommerce.php:613
+#: includes/class-wcapp-seller-protection.php:37
+#: includes/class-wcapp-seller-protection.php:50
+msgid "Seller Protection"
+msgstr "卖家保护"
+
+msgid "PayPal seller protection"
+msgstr "PayPal卖家保护"
+
+#: advanced-paypal-payments-for-woocommerce.php:638
+#: includes/class-wcapp-seller-protection.php:76
+msgid "Tracking number:"
+msgstr "物流单号："
+
+#: advanced-paypal-payments-for-woocommerce.php:642
+#: includes/class-wcapp-seller-protection.php:92
+msgid "Shipping Provider:"
+msgstr "物流商："
+
+#: advanced-paypal-payments-for-woocommerce.php:644
+#: includes/class-wcapp-seller-protection.php:94
+msgid "Select Provider"
+msgstr "选择物流商"
+
+#: advanced-paypal-payments-for-woocommerce.php:645
+msgid "Other"
+msgstr "其他"
+
+#: advanced-paypal-payments-for-woocommerce.php:681
+#: includes/class-wcapp-seller-protection.php:115
+msgid "Save Tracking"
+msgstr "保存"
+
+#: includes/Settings/wcapp-settings.php:10
+msgid "Connect PayPal"
+msgstr "配置PayPal账号"
+
+#: includes/Settings/wcapp-settings.php:15
+msgid "Payments Options"
+msgstr "支付选项"
+
+#: includes/Settings/wcapp-settings.php:25
+msgid "Account Setup"
+msgstr "账户设置"
+
+#: includes/Settings/wcapp-settings.php:30
+msgid "Environment"
+msgstr "环境"
+
+#: includes/Settings/wcapp-settings.php:32
+msgid "Choose whether to activate the plugin in live or sandbox mode"
+msgstr "请选择在沙箱环境还是正式环境激活插件"
+
+#: includes/Settings/wcapp-settings.php:34
+msgid "Live"
+msgstr "生产"
+
+#: includes/Settings/wcapp-settings.php:35
+msgid "Sandbox"
+msgstr "沙箱"
+
+#: includes/Settings/wcapp-settings.php:41
+msgid "Enter your sandbox credentials here and connect your PayPal account"
+msgstr "请输入您的沙箱环境凭证信息以连接到您的PayPal账号"
+
+#: includes/Settings/wcapp-settings.php:44
+#: includes/Settings/wcapp-settings.php:79
+msgid "You have to connect to PayPal. You can connect an existing account or create a new one"
+msgstr "您需要连接到PayPal。您可以连接到一个现有账号或者新建一个账号"
+
+#: includes/Settings/wcapp-settings.php:47
+msgid "Sandbox Email address"
+msgstr "沙箱 邮件地址"
+
+#: includes/Settings/wcapp-settings.php:50
+#: includes/Settings/wcapp-settings.php:85
+msgid "The email address of your PayPal account."
+msgstr "PayPal账号的邮件地址。"
+
+#: includes/Settings/wcapp-settings.php:54
+msgid "Sandbox Merchant ID"
+msgstr "沙箱 商户ID"
+
+#: includes/Settings/wcapp-settings.php:57
+#: includes/Settings/wcapp-settings.php:92
+msgid "The merchant ID of your account"
+msgstr "您账号的商户ID"
+
+#: includes/Settings/wcapp-settings.php:61
+msgid "Sandbox Client ID"
+msgstr "沙箱 Client ID"
+
+#: includes/Settings/wcapp-settings.php:64
+#: includes/Settings/wcapp-settings.php:99
+msgid "The client ID of your account"
+msgstr "您账号的Client ID"
+
+#: includes/Settings/wcapp-settings.php:68
+msgid "Sandbox Secret Key"
+msgstr "沙箱 Secret Key"
+
+#: includes/Settings/wcapp-settings.php:69
+#: includes/Settings/wcapp-settings.php:104
+msgid "If you process transactions on behalf of someone else's PayPal account, enter their email address or their protected merchant account ID (also known as payment ID) here. Generally, you must possess API authorizations of the other account to process any operation other than sale transactions."
+msgstr "如果您代表他人的PayPal帐户处理交易，请在此处输入其电子邮件地址或受保护的商户帐户ID（也称为付款ID）。通常，您必须拥有其他帐户的API授权才能处理除销售交易之外的任何操作。"
+
+#: includes/Settings/wcapp-settings.php:72
+#: includes/Settings/wcapp-settings.php:107
+msgid "The secret key of your account"
+msgstr "您账号的Secret Key"
+
+#: includes/Settings/wcapp-settings.php:76
+msgid "Enter your live credentials and connect your PayPal account"
+msgstr "请输入您的正式环境凭证信息以连接到您的PayPal账号"
+
+#: includes/Settings/wcapp-settings.php:82
+msgid "Live Email address"
+msgstr "生产 邮件地址"
+
+#: includes/Settings/wcapp-settings.php:89
+msgid "Live Merchant ID"
+msgstr "生产 商户ID"
+
+#: includes/Settings/wcapp-settings.php:96
+msgid "Live Client ID"
+msgstr "生产 Client ID"
+
+#: includes/Settings/wcapp-settings.php:103
+msgid "Live Secret Key"
+msgstr "生产 Secret Key"
+
+#: includes/Settings/wcapp-settings.php:111
+msgid "Webhook Status"
+msgstr "Webhook 状态"
+
+#: includes/Settings/wcapp-settings.php:114
+#, php-format
+msgid "Status of the webhooks subscription. More information about the webhooks is available in the %1$sWebhook Status documentation%2$s."
+msgstr "Webhooks订阅的状态。%1$s Webhook状态文档%2$s中提供了有关webhook的详细信息。"
+
+#: includes/Settings/wcapp-settings.php:117
+msgid "Subscribed webhooks"
+msgstr "已订阅webhooks"
+
+#: includes/Settings/wcapp-settings.php:124
+msgid "Resubscribe webhooks"
+msgstr "重新订阅webhooks"
+
+#: includes/Settings/wcapp-settings.php:126
+msgid "Resubscribe"
+msgstr "重新订阅"
+
+#: includes/Settings/wcapp-settings.php:127
+msgid "Click to remove the current webhook subscription and subscribe again, for example, if the website domain or URL structure changed."
+msgstr "点击后会删除当前的webhook订阅然后再次重新订阅，如果网站域名或URL结构发生变化时可以使用。"
+
+#: includes/Settings/wcapp-settings.php:136
+msgid "General"
+msgstr "启用PayPal"
+
+#: includes/Settings/wcapp-settings.php:141
+#: includes/Settings/wcapp-settings.php:188
+msgid "Enable/Disable"
+msgstr "启用/禁用"
+
+#: includes/Settings/wcapp-settings.php:143
+msgid "Enable Advanced PayPal Payments for WooCommerce"
+msgstr "启用 Advanced PayPal Payments for WooCommerce"
+
+#: includes/Settings/wcapp-settings.php:146
+msgid "In order to use PayPal or Advanced Card Processing, you need to enable the Plugin."
+msgstr "为了使用PayPal或更高级功能，您需要启用插件。"
+
+#: includes/Settings/wcapp-settings.php:151
+msgid "Choose where to show PayPal Express Checkout option"
+msgstr "选择PayPal支付按钮显示的页面"
+
+#: includes/Settings/wcapp-settings.php:156
+msgid "Cart Page"
+msgstr "购物车页面"
+
+#: includes/Settings/wcapp-settings.php:158
+msgid "Enable PayPal checkout on the cart page."
+msgstr "在购物车页面启用PayPal支付按钮。"
+
+#: includes/Settings/wcapp-settings.php:159
+msgid "Enable or disable the option to show PayPal Express Checkout button on the cart page"
+msgstr "启用或禁用在购物车页面上显示PayPal支付按钮"
+
+#: includes/Settings/wcapp-settings.php:165
+msgid "Single Product Page"
+msgstr "产品详情页"
+
+#: includes/Settings/wcapp-settings.php:167
+msgid "Enable PayPal checkout on single product page."
+msgstr "在产品详情页面启用PayPal支付按钮。"
+
+#: includes/Settings/wcapp-settings.php:168
+msgid "Show Express Checkout button on each single product page."
+msgstr "在每一个产品详细页面显示PayPal支付按钮。"
+
+#: includes/Settings/wcapp-settings.php:174
+msgid "Checkout Page"
+msgstr "结账页面"
+
+#: includes/Settings/wcapp-settings.php:176
+msgid "Enable PayPal checkout on checkout page."
+msgstr "在结算页面启用PayPal支付按钮。"
+
+#: includes/Settings/wcapp-settings.php:177
+msgid "Show PayPal Express Checkout on checkout page."
+msgstr "在结算页面显示PayPal支付按钮。"
+
+#: includes/Settings/wcapp-settings.php:183
+msgid "Choose to Enable Seller Protection Features"
+msgstr "启用卖家保护功能"
+
+#: includes/Settings/wcapp-settings.php:190
+msgid "Enable seller protection by sending shipment tracking information to PayPal."
+msgstr "通过向PayPal发送物流跟踪信息来启用卖家保护。"
+
+#: includes/Settings/wcapp-settings.php:191
+msgid "Allows to send shipment tracking information to PayPal for orders."
+msgstr "允许向PayPal发送订单的发货跟踪信息。"
+
+#: includes/Settings/wcapp-settings.php:197
+msgid "Standard Settings"
+msgstr "基本设置"
+
+#: includes/Settings/wcapp-settings.php:202
+msgid "Title"
+msgstr "PayPal支付方式显示名称"
+
+#: includes/Settings/wcapp-settings.php:204
+msgid "This controls the title that users see during the checkout."
+msgstr "控制用户在结账页面看到的显示名称。"
+
+#: includes/Settings/wcapp-settings.php:205
+#: includes/Settings/wcapp-settings.php:262
+msgid "PayPal"
+msgstr "PayPal"
+
+#: includes/Settings/wcapp-settings.php:210
+msgid "Description"
+msgstr "支付方式描述"
+
+#: includes/Settings/wcapp-settings.php:212
+msgid "Pay via PayPal; you can pay with your credit card if you don't have a PayPal account."
+msgstr "通过PayPal支付；如果你没有PayPal账户，可以用信用卡付款。"
+
+#: includes/Settings/wcapp-settings.php:213
+msgid "This is the description that the customer will see on checkout page"
+msgstr "这是客户将在结账页面上看到的描述"
+
+#: includes/Settings/wcapp-settings.php:218
+msgid "Brand Name"
+msgstr "网站名称"
+
+#: includes/Settings/wcapp-settings.php:220
+msgid "Enter the company/shop/website name as it will be shown on PayPal checkout."
+msgstr "输入公司/商店/网站名称，将在PayPal结账时显示。"
+
+#: includes/Settings/wcapp-settings.php:238
+msgid "Landing Page"
+msgstr "登录页"
+
+#: includes/Settings/wcapp-settings.php:241
+msgid "Login (PayPal account login)"
+msgstr "登录 (PayPal帐户登录)"
+
+#: includes/Settings/wcapp-settings.php:242
+msgid "Billing (No PayPal account)"
+msgstr "账单 (无PayPal账户)"
+
+#: includes/Settings/wcapp-settings.php:245
+msgid "Type of PayPal page to show."
+msgstr "要显示的PayPal页面类型。"
+
+#: includes/Settings/wcapp-settings.php:250
+msgid "Custom Button"
+msgstr "按钮样式"
+
+#: includes/Settings/wcapp-settings.php:255
+msgid "Button Label"
+msgstr "按钮文字"
+
+#: includes/Settings/wcapp-settings.php:258
+msgid "PayPal Checkout"
+msgstr "PayPal Checkout"
+
+#: includes/Settings/wcapp-settings.php:259
+msgid "Pay with PayPal"
+msgstr "Pay with PayPal"
+
+#: includes/Settings/wcapp-settings.php:260
+msgid "Buy Now"
+msgstr "Buy Now"
+
+#: includes/Settings/wcapp-settings.php:261
+msgid "Buy Now (with PayPal logo)"
+msgstr "Buy Now (with PayPal logo)"
+
+#: includes/Settings/wcapp-settings.php:265
+msgid "Pick the button label among the following ones provided by PayPal APIs."
+msgstr "请选择PayPal支付按钮上显示的文字。"
+
+#: includes/Settings/wcapp-settings.php:270
+msgid "Button Size"
+msgstr "按钮大小"
+
+#: includes/Settings/wcapp-settings.php:273
+msgid "Small"
+msgstr "小"
+
+#: includes/Settings/wcapp-settings.php:274
+msgid "Medium"
+msgstr "中"
+
+#: includes/Settings/wcapp-settings.php:275
+msgid "Large"
+msgstr "大"
+
+#: includes/Settings/wcapp-settings.php:276
+msgid "Responsive"
+msgstr "自适应"
+
+#: includes/Settings/wcapp-settings.php:279
+msgid "Select the button size."
+msgstr "选择按钮的大小。"
+
+#: includes/Settings/wcapp-settings.php:284
+msgid "Button Style"
+msgstr "按钮样式"
+
+#: includes/Settings/wcapp-settings.php:287
+msgid "Rounded"
+msgstr "圆角"
+
+#: includes/Settings/wcapp-settings.php:288
+msgid "Square"
+msgstr "方角"
+
+#: includes/Settings/wcapp-settings.php:291
+msgid "Select the style of button."
+msgstr "选择按钮的样式。"
+
+#: includes/Settings/wcapp-settings.php:296
+msgid "Button Color"
+msgstr "按钮颜色"
+
+#: includes/Settings/wcapp-settings.php:299
+msgid "Gold"
+msgstr "金色"
+
+#: includes/Settings/wcapp-settings.php:300
+msgid "Blue"
+msgstr "蓝色"
+
+#: includes/Settings/wcapp-settings.php:301
+msgid "Silver"
+msgstr "银色"
+
+#: includes/Settings/wcapp-settings.php:302
+msgid "Black"
+msgstr "黑色"
+
+#: includes/Settings/wcapp-settings.php:305
+msgid "Select the color of button."
+msgstr "选择按钮的颜色。"
+
+#: includes/Settings/wcapp-settings.php:310
+msgid "Other Settings"
+msgstr "其他设置"
+
+#: includes/Settings/wcapp-settings.php:315
+msgid "Debug Log"
+msgstr "调试日志"
+
+#: includes/Settings/wcapp-settings.php:317
+msgid "Enable logging."
+msgstr "启用调试日志。"
+
+#: includes/Settings/wcapp-settings.php:318
+msgid "View Logs"
+msgstr "查看日志"
+
+#: includes/Settings/wcapp-settings.php:339
+msgid "Invoice Prefix"
+msgstr "发票前缀"
+
+#: includes/Settings/wcapp-settings.php:342
+msgid "Enter a prefix that will be attached to the invoice number. Useful if you have connected the same PayPal account on more shops."
+msgstr "输入将附加到发票编号的前缀。如果您在更多商店上连接了相同的PayPal帐户，则非常有用。"
+
+#: includes/Settings/wcapp-settings.php:347
+msgid "Payment Action"
+msgstr "付款操作"
+
+#: includes/Settings/wcapp-settings.php:351
+msgid "Authorize"
+msgstr "授权付款"
+
+#: includes/Settings/wcapp-settings.php:352
+msgid "Capture"
+msgstr "立即获取"
+
+#: includes/Settings/wcapp-settings.php:355
+msgid "Choose whether to capture funds immediately or authorize the payment only."
+msgstr "选择是立即获取资金还是仅授权付款。"
+
+#: includes/Settings/wcapp-settings.php:359
+msgid "Instant Payments"
+msgstr "即时付款"
+
+#: includes/Settings/wcapp-settings.php:361
+msgid "Require Instant Payment."
+msgstr "要求即时付款。"
+
+#: includes/Settings/wcapp-settings.php:362
+msgid "Instant Payments option does not allow paying with echecks."
+msgstr "即时付款选项不允许使用echecks付款。"
+
+#: includes/Settings/wcapp-settings.php:368
+msgid "Show Funding Source(s)"
+msgstr "显示资金来源"
+
+#: includes/Settings/wcapp-settings.php:370
+msgid "Debit or Credit Card"
+msgstr "Debit or Credit Card"
+
+#: includes/Settings/wcapp-settings.php:371
+msgid "This controls the funding sources that users see during the checkout."
+msgstr "用于控制用户在结账时能看到的资金来源。"
+
+#: includes/Settings/wcapp-settings.php:379
+msgid "Venmo"
+msgstr "Venmo"
+
+#: includes/Settings/wcapp-settings.php:386
+msgid "PayPal Later"
+msgstr "PayPal Later"
+
+#: includes/Settings/wcapp-settings.php:391
+msgid "Save"
+msgstr "保存"
+
+#: includes/class-wcapp-ajax.php:30 includes/class-wcapp-ajax.php:73
+msgid "error"
+msgstr "错误"
+
+#: includes/class-wcapp-cart.php:141
+msgid "Cheatin&#8217; huh?"
+msgstr "无效操作。"
+
+#: includes/class-wcapp-checkout.php:32
+msgid "Please read and accept the terms and conditions to proceed with your order."
+msgstr "请阅读并接受条款和条件以继续您的订单。"
+
+#: includes/class-wcapp-checkout.php:39
+msgid "Please enter an address to continue."
+msgstr "请输入地址后继续。"
+
+#. translators: %s: shipping location (prefix e.g. 'to' + ISO 3166-1 alpha-2 country code)
+#: includes/class-wcapp-checkout.php:43
+#, php-format
+msgid "Unfortunately <strong>we do not ship %s</strong>. Please enter an alternative shipping address."
+msgstr "不幸的是，<strong>我们没有发货%s</strong>。请输入其他发货地址。"
+
+#: includes/class-wcapp-checkout.php:50
+msgid "No shipping method has been selected. Please double check your address, or contact us if you need any help."
+msgstr "尚未选择发货方法。请仔细检查您的地址，如果需要任何帮助，请联系我们。"
+
+#: includes/class-wcapp-checkout.php:60
+msgid "Invalid payment method."
+msgstr "付款方式无效。"
+
+#: includes/class-wcapp-seller-protection.php:104
+msgid "Already delivered to customer"
+msgstr "已送达客户"
+
+#. Plugin Name of the plugin/theme
+msgid "Advanced Woocommerce PayPal Payments"
+msgstr "Advanced Woocommerce PayPal Payments"
+
+#. Description of the plugin/theme
+msgid "Very reliable checkout solution with quick support by PayPal certificated Partner."
+msgstr "PayPal论证超稳定支付插件，并由PayPal论证合作伙伴提供本地化快速支持。"
+
+#. Author of the plugin/theme
+msgid "PNX Software Co., Ltd."
+msgstr "上海盛翔信息科技有限公司"
+
+#. Author URI of the plugin/theme
+msgid "http://paypal.uin88.com/"
+msgstr "http://paypal.uin88.com/"
+
+# Seller Protection
+msgid "ELIGIBLE"
+msgstr "适用"
+
+msgid "PARTIALLY_ELIGIBLE"
+msgstr "部分适用"
+
+msgid "NOT_ELIGIBLE"
+msgstr "不适用"
+
+msgid "PayPal shipment tracking: The tracking information has been successfully sent to PayPal. (tracking number is: %1$s, tracking provider is: %2$s,shipped status is: %3$s)"
+msgstr "PayPal物流同步：物流信息已成功发送给PayPal。(单号: %1$s, 物流商: %2$s,状态: %3$s)"
+
+msgid "PayPal shipment tracking: Failed to send tracking information to PayPal. Please resubmit."
+msgstr "PayPal物流同步：发送物流信息给PayPal时失败，请重试。"
+
+msgid "Input shipping infor for seller protection, which is not for customer shipping tracking."
+msgstr "输入物流信息作为卖家保护的重要参考信息，此信息不是为了让客户在前台进行物流跟踪。"
+
+msgid "The order is not paid via PayPal."
+msgstr "本订单未使用PayPal付款。"
+
+msgid "The order is not eligible for seller protection."
+msgstr "本订单不适用于卖家保护。"
+
+msgid "Order updated."
+msgstr "订单已更新。"
+
+msgid "Dismiss this notice."
+msgstr "关闭此提示。"
+
+msgid "PayPal shipment tracking is not enabled. <br><a href=\"%1$s\">Click to enable</a>."
+msgstr "PayPal物流同步功能未启用。<br><a href=\"%1$s\">点击启用</a>。"
+
+# webhook
+msgid "Webhook status"
+msgstr "订阅状态"
+
+msgid "Subscribed failed"
+msgstr "订阅失败"
+
+msgid "Subscribed success"
+msgstr "订阅成功"
+
+msgid "Payment successfully captured."
+msgstr "付款成功。"
+
+msgid "Payment initiation was successful, and is waiting for the buyer to complete the payment."
+msgstr "初始化付款成功，等待买家完成支付。"
+
+# Authentication
+msgid "Authentication with PayPal failed: Could not create token."
+msgstr "验证您的PayPal账号信息失败，无法连接。"
+
+msgid "Please verify your API Credentials and try again to connect your PayPal account. Visit the <a href=\"https://paypal.uin88.com/\" target=\"_blank\">plugin documentation</a> for more information about the setup."
+msgstr "请仔细检查您输入的账号信息，并重新保存。访问<a href=\"https://paypal.uin88.com/\" target=\"_blank\">插件文档</a>查看更多的信息。"
+
+# settings
+msgid "Very reliable checkout solution with quick support by <c style=\"color:#169BD7;\">PayPal certificated Partner</c>"
+msgstr "PayPal论证超稳定支付插件，并由<c style=\"color:#169BD7;\">PayPal论证合作伙伴</c>提供本地化快速支持"
+
+msgid "Document"
+msgstr "文档"
+
+msgid "Report a bug"
+msgstr "提交bug"
+
+msgid "About developer"
+msgstr "关于我们"
+
+msgid "Very reliable checkout solution with quick & professional support by PayPal certificated Partner."
+msgstr "PayPal论证超稳定支付插件，并由PayPal论证合作伙伴提供本地化快速和专业支持。"
+
+msgid "Advanced PayPal Payments for WooCommerce requires WooCommerce to be installed and active. You can download %s here."
+msgstr "Advanced PayPal Payments for WooCommerce需要安装并激活WooCommerce。您可以点击 %s 下载。"
+
+msgid "Activate PayPal"
+msgstr "激活PayPal"
+
+msgid "Test payments with PayPal sandbox"
+msgstr "用PayPal沙箱账号测试"
+
+msgid "You can test payments in a safe PayPal sandbox environment."
+msgstr "您可以在安全的PayPal沙箱环境中测试支付。"
+
+msgid "Toggle to manual credential input"
+msgstr "切换到手动输入凭证信息"
+
+msgid "Toggle to automatically obtain credentials"
+msgstr "切换到自动获取凭证信息"
+
+msgid "PayPal status"
+msgstr "连接状态"
+
+msgid "Click to reset current credentials and use another account"
+msgstr "单击重置当前凭据并使用其他帐户"
+
+msgid "Status: Connected"
+msgstr "状态：已连接"
+
+msgid "Disconnect Account"
+msgstr "断开连接"
+
+msgid "Are you sure to disconnect your PayPal?"
+msgstr "确定要断开连接吗？"
+
+msgid "Subscribed failed: Not a valid webhook URL."
+msgstr "订阅失败: 无效的webhook URL。"
+
+msgid "Enable PayPal shipment tracking"
+msgstr "启用PayPal物流同步功能"
+
+msgid "Add tracking information for PayPal transactions."
+msgstr "向PayPal同步发送物流跟踪信息。"
+
+msgid "Before enabling the function, you need to activate the shipment tracking permission for your PayPal account. If you have not yet activated it, please visit <a href='https://www.paypal-techsupport.com/' target='_blank'>https://www.paypal-techsupport.com/</a> for help."
+msgstr "启用功能前需要在PayPal账号开通物流同步权限，如还未开通，请联系PayPal技术支持开通权限，<a href='https://www.paypal-techsupport.com/' target='_blank'>https://www.paypal-techsupport.com/</a>"
+
+msgid "PayPal shipment tracking"
+msgstr "PayPal物流同步"
+
+msgid "Send tracking information to PayPal"
+msgstr "同步发送物流信息到PayPal"
+
+msgid "ADVANCED CREDIT CARD PROCESSING"
+msgstr "高级信用卡支付"
+
+msgid "Advanced credit card"
+msgstr "高级信用卡支付"
+
+msgid "Enabled advanced credit card gateway"
+msgstr "启用高级信用卡支付"
+
+msgid "Advanced credit and debit card functionality requires that <span style='color:red;'>your business account be evaluated and approved by PayPal</span>."
+msgstr "启用高级信用卡支付，需要您的账号是<span style='color:red;'>PayPal商业账号</span>。"
+
+msgid "The advanced credit card gateway is to allow your customer and input credit card on your web site, which requires PayPal business account. Can you confirm your PayPal account is business account?"
+msgstr "高级信用卡支付允许您的客户在您的网站上输入信用卡信息，这个功能需要您的账号是PayPal商业账户，确认您的PayPal账户是商业账户吗？"
+
+msgid "Payment Source"
+msgstr "付款来源"
+
+msgid "Apple Pay"
+msgstr "苹果支付"
+
+msgid "Enabled Apple Pay"
+msgstr "启用苹果支付"
+
+msgid "Apple Pay functionality requires that <span style='color:red;'>your business account be evaluated and approved by PayPal</span>."
+msgstr "启用苹果支付，需要您的账号是<span style='color:red;'>PayPal商业账号</span>。"
+
+msgid "Apple Pay gateway is to allow your customer use Apple Pay on your web site, which requires PayPal business account. Can you confirm your PayPal account is business account?"
+msgstr "苹果支付功能允许您的客户在您的网站上使用苹果支付，这个功能需要您的账号是PayPal商业账户，确认您的PayPal账户是商业账户吗？"
+
+msgid "Google Pay"
+msgstr "谷歌支付"
+
+msgid "Enabled Google Pay"
+msgstr "启用谷歌支付"
+
+msgid "Google Pay functionality requires that <span style='color:red;'>your business account be evaluated and approved by PayPal</span>."
+msgstr "启用谷歌支付，需要您的账号是<span style='color:red;'>PayPal商业账号</span>。"
+
+msgid "Google Pay gateway is to allow your customer use Google Pay on your web site, which requires PayPal business account. Can you confirm your PayPal account is business account?"
+msgstr "谷歌支付功能允许您的客户在您的网站上使用谷歌支付，这个功能需要您的账号是PayPal商业账户，确认您的PayPal账户是商业账户吗？"

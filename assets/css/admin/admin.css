@@ -1,0 +1,201 @@
+/* tab样式 */
+
+.tab-pnx-unselect {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f0f0f1;
+    margin: 0 5px 0 0;
+    color: black;
+    font-weight: 500;
+    text-transform: uppercase;
+    width: auto;
+    cursor: pointer;
+    float: left;
+    /* display: inline-block; */
+    border: 1px solid #c3c4c7;
+    /* border-bottom: none; */
+    border-bottom: none;
+}
+
+h3#woocommerce_advanced-paypal-payments-for-woocommerce_payments_settings {
+    position: absolute;
+    left: 200px;
+}
+
+h3#woocommerce_advanced-paypal-payments-for-woocommerce_connection {
+    position: absolute;
+    left: 22px;
+}
+
+h3#woocommerce_advanced-paypal-payments-for-woocommerce_standard_payments {
+    position: absolute;
+    left: 150px;
+}
+
+
+/* tab选中样式 */
+
+.tab-pnx-selected {
+    background-color: #189CD7;
+    color: white;
+    border: none;
+    border-bottom: none !important;
+    border: 1px solid #189cd7;
+}
+
+
+/* account set up */
+
+.block-pnx-title {
+    background-color: #189CD7;
+    width: 100%;
+    display: block;
+    margin: 0 -15px 30px;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.current-account{
+    background-color: #f0f0f1;
+    width: calc(100% - 44px);
+    display: block;
+    margin: 0 7px;
+    padding: 10px 15px;
+    font-size: 14px !important;
+    color: black;
+    font-weight: 350;
+    margin-top: 0px;
+    margin-bottom: 0;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+#woocommerce_advanced-paypal-payments-for-woocommerce_general{margin-top:14px;}
+
+/* end */
+
+form#mainform {
+    background: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+}
+
+
+/* 左边label */
+
+.woocommerce table.form-table th label {
+    font-size: 15px;
+}
+
+h3#woocommerce_advanced-paypal-payments-for-woocommerce_sandbox_api_credentials {
+    font-size: 15px;
+}
+
+
+/* save 按钮 */
+
+h3#woocommerce_advanced-paypal-payments-for-woocommerce_new_save {
+    padding: 13px 10px;
+    color: #fff;
+    border: 0;
+    border-radius: 1px;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    text-transform: capitalize;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #189CD7;
+    text-transform: uppercase;
+    width: 400px;
+    text-align: center;
+    position: sticky;
+    right: 20px;
+    bottom: 0;
+    margin-bottom: 0;
+    float: right;
+}
+
+p.submit {
+ 
+}
+.block-pnx-hide, .block-pnx-hide+table, .block-pnx-hide+p, .block-pnx-hide+p+table{display:none !important;}
+tr:has(#woocommerce_advanced-paypal-payments-for-woocommerce_merchant_id_sandbox),tr:has(#woocommerce_advanced-paypal-payments-for-woocommerce_merchant_id_production),tr:has(#woocommerce_advanced-paypal-payments-for-woocommerce_webhook_id_live),tr:has(#woocommerce_advanced-paypal-payments-for-woocommerce_webhook_id_sandbox),tr:has(#woocommerce_advanced-paypal-payments-for-woocommerce_payment_action),tr:has(#woocommerce_advanced-paypal-payments-for-woocommerce_instant_payments),tr:has(.hidden-value){display:none !important;}
+tr:has(#woocommerce_advanced-paypal-payments-for-woocommerce_activate_paypal),tr:has(#woocommerce_advanced-paypal-payments-for-woocommerce_test_payments_with_paypal_sandbox){display:none;}
+p:has(#toggleToThirdParty),p:has(#signUpPaypal){width:400px;}
+td:has(#toggleToThirdParty),td:has(#woocommerce_advanced-paypal-payments-for-woocommerce_activate_paypal),td:has(#woocommerce_advanced-paypal-payments-for-woocommerce_test_payments_with_paypal_sandbox){padding-left:0;}
+#subscribed_webhooks_table {border-collapse: collapse;}
+#subscribed_webhooks_table th {
+    position: relative;
+    border-bottom: 1px solid #000;
+    vertical-align: top;
+    text-align: left;
+    padding: 10px 24px 10px 15px;
+    width: 200px;
+    line-height: 1.3;
+    font-weight: 600;
+}
+#subscribed_webhooks_table td:first-child {
+    vertical-align: top;
+    width: 450px;
+}
+.tab-pnx-unselect:hover {
+    background-color: #189CD7;
+    color: white;
+    border-bottom: none !important;
+    border: 1px solid #189cd7;
+}
+.tab-bottom-line {
+    margin-top: 39px;
+    margin-left: -15px;
+    margin-right: -15px;
+    background: #c3c4c7;
+    height: 1px;
+    padding: 0;
+}
+#woocommerce_advanced-paypal-payments-for-woocommerce_account_setup,#woocommerce_advanced-paypal-payments-for-woocommerce_original_account_setup{margin-top:0px;}
+.seller_protection_status_not_eligible{color:red;font-weight: bold;}
+.seller_protection_status_partially_eligible{color:green;font-weight: bold;}
+.seller_protection_status_eligible{color:green;font-weight: bold;}
+#current-account-table th{text-align:left;}
+.settings-page-header{display: flex;
+    align-items: center;
+    max-width: 1200px;
+margin: 10px 0px;}
+.settings-page-header h4 {
+    margin: 0 15px 0 5px;
+}
+.settings-page-header .button, .settings-page-header a {
+    margin: 0 5px;
+}
+.right-align {
+    margin-left: auto;
+}
+.settings-page-header img{height:30px;}
+.settings-page-header+h2,.settings-page-header+h2+p{display:none;}
+.settings-page-header+.updated+h2,.settings-page-header+.updated+h2+p{display:none;}
+#woocommerce_advanced-paypal-payments-for-woocommerce_activate_paypal{
+	background: #2271b1;
+	border: solid 1px #2271b1;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: none;
+	cursor: pointer;
+   height: 30px;
+   padding: 0 10px;
+}
+#woocommerce_advanced-paypal-payments-for-woocommerce_test_payments_with_paypal_sandbox,#woocommerce_advanced-paypal-payments-for-woocommerce_disconnect_from_paypal{
+	color: #2271b1;
+	border: solid 1px #2271b1;
+	background: #f6f7f7;
+	vertical-align: top;
+	cursor: pointer;
+   height: 30px;
+   padding: 0 10px;
+}
+#signUpPaypalLive,#signUpPaypal,#woocommerce_advanced-paypal-payments-for-woocommerce_toggle_to_manual_credential_input,#woocommerce_advanced-paypal-payments-for-woocommerce_toggle_to_third_party,#woocommerce_advanced-paypal-payments-for-woocommerce_account_setup,#woocommerce_advanced-paypal-payments-for-woocommerce_toggle_to_third_party_title{display:none;}
